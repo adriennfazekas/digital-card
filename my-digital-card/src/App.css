@@ -8,22 +8,29 @@ body {
 }
 
 .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   text-align: center;
   font-family: 'Mukta', sans-serif;
-  background-color: #1A1B21;
+  background-color: #F5F5F5;
   height: 100vh;
   width: 300px;
 }
 
 /* INFO */
+.img-cont {
+  width: 80%;
+  margin: 0 auto;
+}
 .avatar {
-  height: 35vh;
+  width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 .info h2 {
-  color: white;
+  color: black;
   margin: 0;
   padding: 0;
 }
@@ -63,9 +70,9 @@ button:hover {
   background-position-y: center;
 }
 
-/* ABOUT */
+/* MAIN */
 .main {
-  color: white;
+  color: black;
   text-align: left;
   margin: 1.5rem 2.4rem 0 2.4rem;
 }
@@ -76,4 +83,17 @@ button:hover {
   margin: 0;
   font-size: 0.8rem;
   font-weight: 300;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.5rem;
+  gap: 20px;
+  background-color: #D5D4D8;
 }
