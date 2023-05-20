@@ -10,8 +10,70 @@ body {
 .container {
   margin: 0 auto;
   text-align: center;
+  font-family: 'Mukta', sans-serif;
+  background-color: #1A1B21;
+  height: 100vh;
+  width: 300px;
 }
 
+/* INFO */
 .avatar {
-  width: 20%;
+  height: 35vh;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.info h2 {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.info p {
+  color: rgb(102, 187, 133);
+  margin: 0.1rem 0 1rem 0;
+  font-size: 0.8rem;
+}
+
+button {
+  margin: 0 1rem 0 1rem;
+  font-family: 'Mukta', sans-serif;
+  border-radius: 4px;
+}
+button:hover {
+  cursor: pointer;
+}
+.email-btn {
+  padding: 0.4rem 1.8rem 0.4rem 2.6rem;
+  margin-right: 5px;
+  background-color: white;
+  border: 1px solid rgb(195, 192, 192);
+  background-image: url(images/Mail.png);
+  background-repeat: no-repeat;
+  background-position-x: 20px;
+  background-position-y: center;
+}
+.linkedin-btn {
+  color: white;
+  padding: 0.4rem 1.5rem 0.4rem 2.4rem;
+  margin-left: 5px;
+  background-color: #5093E2;
+  border: 1px solid rgb(195, 192, 192);
+  background-image: url(images/linkedin.png);
+  background-repeat: no-repeat;
+  background-position-x: 18px;
+  background-position-y: center;
+}
+
+/* ABOUT */
+.main {
+  color: white;
+  text-align: left;
+  margin: 1.5rem 2.4rem 0 2.4rem;
+}
+.main h2 {
+  margin: 0;
+}
+.main p {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 300;
 }
